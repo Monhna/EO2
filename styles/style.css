@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(240, 236, 236);
+    color: black;
+}
+
+.contenedor{
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 25vh);
+    border: solid 3px black;
+ }
+
+
+#caja1{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #00E4AC;
+    border: solid 3px black;
+   }
+
+#caja2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #608FE9;
+    border: solid 3px black;
+}
+
+#caja3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #00E4AC;
+    border: solid 3px black;
+}
+
+#caja4{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+     background-color: #FF404C;
+    border: solid 3px black;
+}
+
+#caja5{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: #608FE9;
+    border: solid 3px black;
+}
+
+#caja6{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: #608FE9;
+    border: solid 3px black;
+}
+
+#caja7{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: #608FE9;
+    border: solid 3px black;
+}
+
+#caja8{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: #00E4AC;
+    border: solid 3px black;
+}
+
+#caja9{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #FF404C;
+    border: solid 3px black;
+}
+
+#caja10{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #FF404C;
+    border: solid 3px black;
+}
+
+#caja11{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #FF404C;
+    border: solid 3px black;
+}
+
+#caja12{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #00E4AC;
+    border: solid 3px black;
+}
